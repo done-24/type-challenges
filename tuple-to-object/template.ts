@@ -1,0 +1,1 @@
+type TupleToObject<T extends ReadonlyArray<string | number>> = { [P in T[number]] : P }
